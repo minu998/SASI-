@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot Hosting Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bot Hosting Platform</h1>
+        <p>Deploy your bot easily to Vercel by providing your GitHub repository link.</p>
+        
+        <form id="deployForm">
+            <label for="repoUrl">GitHub Repository URL</label>
+            <input type="url" id="repoUrl" placeholder="Enter GitHub Repo URL" required>
+            <button type="submit">Deploy Bot</button>
+        </form>
+
+        <div id="statusMessage"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
